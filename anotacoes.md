@@ -27,3 +27,28 @@ docker-compose up -d
 
 docker logs name_app -f
 
+
+*
+docker ps -a
+
+docker rm id ou nome
+
+
+docker-compose up -d
+docker-compose stop
+docker-compose down
+docker-compose start
+
+
+docker exec rentx cat /etc/hosts
+
+docker-compose up -d —force-recreate
+
+npm run typeorm migration:create -- -n CreateCategories
+
+npm run typeorm migration:run
+npm run typeorm migration:revert
+
+
+
+
