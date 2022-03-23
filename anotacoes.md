@@ -49,6 +49,11 @@ npm run typeorm migration:create -- -n CreateCategories
 npm run typeorm migration:run
 npm run typeorm migration:revert
 
+module
+    - accounts
+        - entities
+            - 
+
 
 
 
